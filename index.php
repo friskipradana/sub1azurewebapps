@@ -26,7 +26,7 @@
        <input type="submit" name="load_data" value="Load Data" />
  </form>
  <?php
-    $host = "azurewebs";
+    $host = "azurewebsappserver.database.windows.net";
     $user = "azureusers";
     $pass = "Azure12345";
     $db = "azurewebappdb";
