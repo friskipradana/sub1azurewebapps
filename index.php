@@ -19,20 +19,7 @@
  </style>
  </head>
  <body>
-  <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		</button>
-		<div class="collapse navbar-collapse" id="navbarsExampleDefault">
-			<ul class="navbar-nav mr-auto">
-			<li class="nav-item active">
-				<a class="nav-link" href="https://subazurewebapp.azurewebsites.net">Home</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="https://subazurewebapp.azurewebsites.net/analyze.php">Analisis Gambar<span class="sr-only">(current)</span></a>
-			</li>
-		</div>
-		</nav>
+
   <main role="main" class="container">
   <div class="starter-template"> <br><br><br>
         <h1>Register here!!</h1>
