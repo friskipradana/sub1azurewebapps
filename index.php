@@ -33,8 +33,12 @@
 			</li>
 		</div>
 		</nav>
- <h1>Register here!</h1>
- <p>Fill in your name and email address, then click <strong>Submit</strong> to register.</p>
+  <main role="main" class="container">
+  <div class="starter-template"> <br><br><br>
+        <h1>Register here!</h1>
+        <p>Fill in your name and email address, then click Submit to register.</p> <br>
+        <span class="border-top my-3"></span>
+      </div>
  <form method="post" action="index.php" enctype="multipart/form-data" >
        Name  <input type="text" name="name" id="name"/></br></br>
        Email <input type="text" name="email" id="email"/></br></br>
