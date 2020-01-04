@@ -8,8 +8,10 @@ use MicrosoftAzure\Storage\Blob\Models\ListBlobsOptions;
 use MicrosoftAzure\Storage\Blob\Models\CreateContainerOptions;
 use MicrosoftAzure\Storage\Blob\Models\PublicAccessType;
 
-$connectionString =" ";
-$containerName = "";
+$connectionString =
+"DefaultEndpointsProtocol=https;AccountName=webphpblobs;AccountKey=M6oiNXZN2Qt+OgjhhnYmmiID9MxIRw1eZQACGCOWxIJgWvlfKJlviJeXev9to4NdrZvYClS5xJWPeeDUNe/66w==;";
+
+$containerName = "blobtests";
 // Create blob client.
 $blobClient = BlobRestProxy::createBlobService($connectionString);
 if (isset($_POST['submit'])) {
